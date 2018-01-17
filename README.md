@@ -24,7 +24,7 @@ Here is an early WordCloud representation of what my Naive Bayes model thought w
 
 ![wordcloud](images/card_wordcloud.png)
 
-'office', 'subsequent', 'established' and 'inpatient' aren't important words at all! In fact, these are from the family of the most frquently occuring procedures that involve simple doctor-patient appointmenets.
+'office', 'subsequent', 'established' and 'inpatient' aren't important words at all! In fact, these are from the family of the most frquently occuring procedures that involve simple doctor-patient appointments.
 
 I started treating the words that were included in these family of procedures as stopwords and here is the new wordcloud.
 
