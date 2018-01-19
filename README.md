@@ -32,3 +32,9 @@ I started treating the words that were included in these family of procedures as
 
 This wordcloud looks way more representative than the previous one.
 
+##### Is it possible to categorize *ALL* the unlabelled Doctors, given that there is not enough data on them to predicit using NLP?
+
+Absolutely. Here's a glimpse of what's possible by deriving a Network built off of Doctor-Procedure connections in the dataset.
+
+![network](images/top_12_proc_to_proc_code.png)
+
