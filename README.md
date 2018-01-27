@@ -1,4 +1,4 @@
-## Doctor Specialty Classification and Network Analysis
+# Doctor Specialty Classification and Network Analysis
 
 For this project, I will try to correctly classify the doctors with missing/unlabelled specialities. The classification will be based off the NLP performed on their procedure description. As another milestone, I've performed complex network analysis to further classify the clustering of different specialties.
 
@@ -8,15 +8,15 @@ This is an early network cluster which I was able to model. The various colors r
 
 As you can clearly notice, most doctors' procedures are NOT strictly bound to their specialty. They seem to have performed diverse procedures - exhibiting domain expertise and experience.
 
-#### Data
+## Data
 
 Due to the confidential nature of the dataset, it is currently not included in my repo.
 
-#### EDA
+## EDA
 
 I've performed exhaustive EDA on the dataset and as a result,obtained several signs of sparse and dense segmentation of data.
 
-#### NLP
+## NLP
 
 One of the challenges that I faced during NLP was the repetitive occurance of a few common procedures. These procedures were usually just scheduled visits of inpatients and outpatients of the hospital. This added noise while trying to classify the doctor specialty(in my case - if a Doctor was a Cardiologist or not)
 
@@ -32,7 +32,7 @@ I started treating the words that were included in these family of procedures as
 
 This wordcloud looks way more representative than the previous one.
 
-##### Is it possible to categorize *ALL* the unlabelled Doctors, given that there is not enough data on them to predicit using NLP?
+### Is it possible to categorize *ALL* the unlabelled Doctors, given that there is not enough data on them to predicit using NLP?
 
 Absolutely. Here's a glimpse of what's possible by deriving a Network built off of Doctor-Procedure connections in the dataset.
 
